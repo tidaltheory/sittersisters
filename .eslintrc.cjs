@@ -1,6 +1,7 @@
 module.exports = {
 	extends: ['@zazen', 'next/core-web-vitals'],
 	rules: {
+		'import/extensions': ['error', { tsx: 'never' }],
 		'import/no-extraneous-dependencies': [
 			'error',
 			{

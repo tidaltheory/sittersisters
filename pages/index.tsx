@@ -1,5 +1,8 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+
+import { BannerStripe } from '../components/banner-stripe'
+import { LogoFull } from '../components/logo-full'
 // Import Image from 'next/image'
 
 const Home: NextPage = () => (
@@ -13,22 +16,13 @@ const Home: NextPage = () => (
 			<link rel="icon" href="/favicon.ico" />
 		</Head>
 
-		<div className="">
-			<div className="flex">
-				<div className="h-2 flex-1 bg-orange-dark" />
-				<div className="h-2 flex-1 bg-blue-dark" />
-				<div className="h-2 flex-1 bg-red-dark" />
-				<div className="h-2 flex-1 bg-green-dark" />
-			</div>
-			<div className="flex">
-				<div className="h-10 flex-1 bg-orange-light" />
-				<div className="h-10 flex-1 bg-blue-light" />
-				<div className="h-10 flex-1 bg-red-light" />
-				<div className="h-10 flex-1 bg-green-light" />
-			</div>
-		</div>
-		<header className="pt-8 text-center md:pt-16">
+		<BannerStripe />
+
+		<header className="px-8 pt-8 text-center md:pt-16">
 			<h1 className="sr-only">Sitter Sisters</h1>
+			<div className="flex justify-center pb-12 md:pb-[4.5rem]">
+				<LogoFull />
+			</div>
 
 			<p className="mx-auto max-w-sm text-center font-medium text-blue-dark font-sofia text-xl leading-6 leading-trim">
 				Two sisters who live in the Highlands area &#38; provide
@@ -38,10 +32,13 @@ const Home: NextPage = () => (
 
 		<main className="px-8 pt-16 md:pt-24">
 			<div className="mx-auto flex max-w-4xl flex-col gap-8 md:gap-12 lg:flex-row lg:gap-16">
-				<div className="flex-1">
+				<div className="grid flex-1 gap-1">
 					<h3 className="font-medium text-blue-light font-sofia text-2xl leading-8 leading-trim md:text-center">
 						General lawn care
 					</h3>
+					<p className="text-stone-800 font-sofia leading-5 leading-trim md:text-center">
+						Mowing, weed-picking, and watering
+					</p>
 				</div>
 				<div className="flex-1">
 					<h3 className="font-medium text-green-dark font-sofia text-2xl leading-8 leading-trim md:text-center">
