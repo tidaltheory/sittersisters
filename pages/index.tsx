@@ -3,7 +3,7 @@ import Head from 'next/head'
 
 import { BannerStripe } from '../components/banner-stripe'
 import { LogoFull } from '../components/logo-full'
-// Import Image from 'next/image'
+import { ServiceBlock } from '../components/service-block'
 
 const Home: NextPage = () => (
 	<article className="pb-20 md:pb-28">
@@ -31,45 +31,18 @@ const Home: NextPage = () => (
 		</header>
 
 		<main className="px-8 pt-16 md:pt-24">
-			<div className="mx-auto flex max-w-4xl flex-col gap-8 md:gap-12 lg:flex-row lg:gap-16">
-				<div className="grid flex-1 gap-1">
-					<h3 className="font-medium text-blue-light font-sofia text-2xl leading-8 leading-trim md:text-center">
-						General lawn care
-					</h3>
-					<p className="text-stone-800 font-sofia leading-5 leading-trim md:text-center">
-						Mowing, weed-picking, and watering
-					</p>
-				</div>
-				<div className="flex-1">
-					<h3 className="font-medium text-green-dark font-sofia text-2xl leading-8 leading-trim md:text-center">
-						Babysitting
-					</h3>
-				</div>
-				<div className="flex-1">
-					<h3 className="font-medium text-blue-light font-sofia text-2xl leading-8 leading-trim md:text-center">
-						Collecting mail
-					</h3>
-				</div>
+			<div className="mx-auto flex max-w-4xl flex-col items-center gap-8 md:gap-12 lg:flex-row lg:items-start lg:gap-16">
+				<ServiceBlock title="General lawn care">
+					Mowing, weed-picking, and watering
+				</ServiceBlock>
+				<ServiceBlock title="Babysitting" orientation="right">
+					Red Cross certification and First Aid
+				</ServiceBlock>
+				<ServiceBlock title="Collecting mail">
+					We keep it safe until you return
+				</ServiceBlock>
 			</div>
 		</main>
-
-		{/* <footer className={styles.footer}>
-			<a
-				href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-				target="_blank"
-				rel="noopener noreferrer"
-			>
-				Powered by{' '}
-				<span className={styles.logo}>
-					<Image
-						src="/vercel.svg"
-						alt="Vercel Logo"
-						width={72}
-						height={16}
-					/>
-				</span>
-			</a>
-		</footer> */}
 	</article>
 )
 
