@@ -8,8 +8,8 @@ module.exports = {
 		fontMetrics: {
 			sofia: {
 				capHeight: 689,
-				ascent: 750,
-				descent: -250,
+				ascent: 890,
+				descent: -260,
 				lineGap: 0,
 				unitsPerEm: 1000,
 			},
