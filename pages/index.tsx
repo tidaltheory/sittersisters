@@ -13,6 +13,7 @@ const Home: NextPage = () => (
 				name="description"
 				content="Two sisters who live in the Highlands area & provide neighbourhood care."
 			/>
+			<link rel="stylesheet" href="https://use.typekit.net/jdd3rnm.css" />
 			<link rel="icon" href="/favicon.ico" />
 		</Head>
 

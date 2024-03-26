@@ -2,7 +2,7 @@ module.exports = {
 	content: ['./components/**/*.tsx', './pages/**/*.tsx'],
 	theme: {
 		fontFamily: {
-			sofia: 'Sofia, sans-serif',
+			sofia: '"sofia-pro", sans-serif',
 		},
 
 		fontMetrics: {
