@@ -13,8 +13,6 @@ const Home: NextPage = () => (
 				name="description"
 				content="Two sisters who live in the Highlands area & provide neighbourhood care."
 			/>
-			<link rel="stylesheet" href="https://use.typekit.net/jdd3rnm.css" />
-			<link rel="icon" href="/favicon.ico" />
 		</Head>
 
 		<BannerStripe />
@@ -25,7 +23,7 @@ const Home: NextPage = () => (
 				<LogoFull />
 			</div>
 
-			<p className="mx-auto max-w-sm text-center font-medium text-blue-dark font-sofia text-xl leading-6 leading-trim">
+			<p className="mx-auto max-w-sm text-center font-medium text-blue-dark font-poppins text-xl leading-6 leading-trim">
 				Two sisters who live in the Highlands area &#38; provide
 				neighbourhood care.
 			</p>
@@ -45,14 +43,14 @@ const Home: NextPage = () => (
 			</div>
 			<div className="grid justify-center pt-16 md:pt-24">
 				<h2
-					className="text-center font-medium text-blue-dark font-sofia text-xl leading-6 leading-trim all-small-caps"
+					className="text-center font-medium text-blue-dark font-poppins text-xl leading-6 leading-trim all-small-caps"
 					style={{ fontFeatureSettings: '"cpsp"' }}
 				>
 					Let us know how we can help!
 				</h2>
 				<div className="flex flex-col items-center gap-4 pt-8">
 					<a
-						className="text-blue-dark font-sofia text-2xl leading-6 leading-trim hover:underline"
+						className="text-blue-dark font-poppins text-2xl leading-6 leading-trim hover:underline"
 						href="tel:780-235-2706"
 						style={{ fontFeatureSettings: '"case"' }}
 					>
@@ -60,13 +58,13 @@ const Home: NextPage = () => (
 					</a>
 					<div className="flex items-center justify-center gap-3">
 						<div className="h-px w-12 bg-stone-200" />
-						<span className="font-medium text-stone-700 font-sofia text-base leading-5 leading-trim all-small-caps">
+						<span className="font-medium text-stone-700 font-poppins text-base leading-5 leading-trim all-small-caps">
 							or
 						</span>
 						<div className="h-px w-12 bg-stone-200" />
 					</div>
 					<a
-						className="text-blue-dark font-sofia text-2xl leading-6 leading-trim hover:underline"
+						className="text-blue-dark font-poppins text-2xl leading-6 leading-trim hover:underline"
 						href="email:info@sittersisters.ca"
 						style={{ fontFeatureSettings: '"case"' }}
 					>

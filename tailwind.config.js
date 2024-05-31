@@ -3,6 +3,7 @@ module.exports = {
 	theme: {
 		fontFamily: {
 			sofia: '"sofia-pro", sans-serif',
+			poppins: 'poppins, sans-serif',
 		},
 
 		fontMetrics: {
@@ -11,6 +12,13 @@ module.exports = {
 				ascent: 890,
 				descent: -260,
 				lineGap: 0,
+				unitsPerEm: 1000,
+			},
+			poppins: {
+				capHeight: 698,
+				ascent: 1050,
+				descent: -350,
+				lineGap: 100,
 				unitsPerEm: 1000,
 			},
 		},

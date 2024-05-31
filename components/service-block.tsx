@@ -37,11 +37,11 @@ export function ServiceBlock({ children, orientation = 'left', title }: Props) {
 			) : null}
 			<div className="grid gap-3 pt-5 lg:pt-0">
 				<h3
-					className={`${titleClass} font-medium font-sofia text-2xl leading-8 leading-trim lg:text-center`}
+					className={`${titleClass} font-medium font-poppins text-2xl leading-8 leading-trim lg:text-center`}
 				>
 					{title}
 				</h3>
-				<p className="text-stone-800 font-sofia text-base leading-5 leading-trim md:text-center">
+				<p className="text-stone-800 font-poppins text-base leading-5 leading-trim md:text-center">
 					{children}
 				</p>
 			</div>
