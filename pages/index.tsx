@@ -3,6 +3,7 @@ import Head from 'next/head'
 
 import { BannerStripe } from '../components/banner-stripe'
 import { LogoFull } from '../components/logo-full'
+// eslint-disable-next-line no-unused-vars
 import { ServiceBlock } from '../components/service-block'
 
 const Home: NextPage = () => (
