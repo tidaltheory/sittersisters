@@ -23,13 +23,13 @@ const Home: NextPage = () => (
 				<LogoFull />
 			</div>
 
-			<p className="mx-auto max-w-sm text-center font-medium text-blue-dark font-poppins text-xl leading-6 leading-trim">
+			{/* <p className="mx-auto max-w-sm text-center font-medium text-blue-dark font-poppins text-xl leading-6 leading-trim">
 				Two sisters who live in the Highlands area &#38; provide
 				neighbourhood care.
-			</p>
+			</p> */}
 		</header>
 
-		<main className="px-8 pt-16 md:pt-24">
+		{/* <main className="px-8 pt-16 md:pt-24">
 			<div className="mx-auto flex max-w-4xl flex-col items-center gap-8 md:gap-12 lg:flex-row lg:items-start lg:gap-16">
 				<ServiceBlock title="General lawn care">
 					Mowing, weed-picking, and watering
@@ -72,7 +72,7 @@ const Home: NextPage = () => (
 					</a>
 				</div>
 			</div>
-		</main>
+		</main> */}
 	</article>
 )
 
